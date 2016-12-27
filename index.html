@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
+    <link rel="shortcut icon" href="images/parrot-m.gif">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+	<title>Parrots</title>
+</head>
+<!--------------------------------HEADER-------------->
+<body>
+	<div class="col-md-8 col-md-offset-2 text-center">
+		<h1 class="">Parrots talking</h1>
+		<hr>
+		<div class="row">
+			<div class="col-md-6">
+				<label for="hora">¿Qué hora es?</label><br>
+				<input type="text" id="hora">
+			</div>
+			
+			<div class="col-md-6">
+				<label for="horas">
+					<input type="checkbox" onchange="parrotA()" id="parrot_a">El loro esta hablando? 
+				</label>
+				
+				<div id="img_parrot_a"></div>
+			</div>
+
+		</div>
+		<div class="well">
+			<h4>Averigua si estamos en problemas</h4>
+			<h1 id="salida"></h1>
+		</div>
+		<p><button onclick="evaluar()" class="btn warning">Evaluar</button></p>
+	</div>
+	<p class="codigo text-center"><a href="https://github.com/VGIO2/Parrots">VER CODIGO</a></p>
+ 
+ <script src="js/main.js"></script>
+</body>
+</html>

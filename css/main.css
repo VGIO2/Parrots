@@ -1,0 +1,31 @@
+
+/*-------------------->> HEADER <<--------------------*/
+body{
+    background-image: url(../images/naranja.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    margin: 20px;
+}
+.logo img {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+h1, h4, h3, p, a{
+    font-family: 'Aref Ruqaa', serif;
+}
+#salida{
+    margin-top: 20px;
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 20px;
+}
+.codigo a{
+    color: black;
+    padding-top: 20px;
+}
+button{
+    margin-top: 20px;
+}
