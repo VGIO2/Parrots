@@ -3,7 +3,7 @@ function parrotA(){
     var parrot_a = document.getElementById("parrot_a");
     
     if(parrot_a.checked)
-		img.innerHTML = '<img src="images/parrot-s.gif">';
+		img.innerHTML = '<img class="pirata"  src="images/pirata.png">';
 	else
 		img.innerHTML = '<img src="images/parrot-n.gif">';
 }
